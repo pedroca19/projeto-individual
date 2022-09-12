@@ -1,0 +1,228 @@
+/* corpo */
+
+body {
+	height: 2000px;
+	font-size: 100%;
+	font-family: "Comfortaa", cursive;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+/* barra de menu*/
+
+.menu-bar {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	font-size: 20px;
+	gap: 70px;
+	padding-right: 200px;
+	height: 70px;
+	background-color: #fff8e7;
+	color: #60502e;
+}
+.menu-bar a{
+	color: #60502e;
+}
+
+/*pagina 1 apresentação*/
+
+.pagina1-pai {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	padding: 200px;
+	background-color: #fff8e7;
+	color: #60502e;
+}
+
+.img-pagina1 {
+	height: 500px;
+	border-radius: 20px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.apresentaçao1-texto1 {
+	font-size: 80px;
+}
+
+.pagina1-avo {
+	background-color: #fff8e7;
+	height: 779px;
+}
+
+/*pagina sobre mim */
+
+.pagina2-titulo {
+	height: 120px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: #e2cfa1;
+	color: #60502e;
+}
+
+.pagina2-texto1 {
+	font-size: 50px;
+}
+
+.img-pagina2 {
+	height: 482px;
+}
+
+.pagina2-pai {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 150px;
+	background-color: #e2cfa1;
+	padding-bottom: 150px;
+}
+
+.pagina2-texto {
+	font-size: 25px;
+	color: #60502e;
+}
+
+/* pagina hobbies/interesses */
+
+.pagina3-texto1 {
+	height: 120px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff8e7;
+	font-size: 50px;
+	color: #60502e;
+}
+
+.pagina3-pai {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 100px;
+}
+
+.img1-pagina3 {
+	height: 320px;
+}
+
+.pagina3-categoria {
+	display: flex;
+	justify-content: space-between;
+	font-size: 35px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #60502e;
+}
+
+.categoria1 {
+	padding-left: 120px;
+}
+.categoria2 {
+	padding-right: 100px;
+}
+.categoria3 {
+	padding-right: 260px;
+}
+
+.img2-pagina3 {
+	height: 320px;
+}
+
+.pagina3-pai2 {
+	display: flex;
+	justify-content: center;
+}
+
+.categoria4 {
+	font-size: 35px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 810px;
+	color: #60502e;
+}
+
+.div-background3 {
+	background-color: #fff8e7;
+}
+
+/* página contatos */
+
+.pagina4-texto{
+	height: 120px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: #60502e;
+	font-size: 50px;
+	color: #fff8e7;
+}
+
+input, button{
+	border-radius: 5px;
+}
+
+.pagina4-form{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 100px;
+	gap: 50px;
+	background-color:#60502e ;
+	color: #fff8e7;
+}
+
+.campo1{
+	padding-top: 50px;
+	padding-left: 450px;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	background-color: #60502e;
+	color: #fff8e7;
+	
+
+}
+input{
+	height: 25px;
+	width: 400px;
+}
+
+textarea{
+	height: 200px;
+	width: 800px;
+	
+}
+
+.pagina4-botao{
+	display: flex;
+	justify-content: center;
+	padding-top: 30px ;
+	background-color: #60502e;
+	padding-bottom: 50px;
+
+}
+
+.botao{
+	height: 40px;
+	width: 120px;
+	font-size: 20px;
+	border-radius: 20px;
+	border: none;
+	font-family: "Comfortaa", cursive;
+	color: #60502e;
+	background-color: #fff8e7;
+
+}
